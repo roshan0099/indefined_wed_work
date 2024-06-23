@@ -51,8 +51,8 @@ const MainDisplay = () => {
                     </div>
 
                     <div>
-                    Nattika<br />
-    T               Triprayar
+                    Nattika<br/>
+                  Triprayar
                     </div>
                 </div>
 

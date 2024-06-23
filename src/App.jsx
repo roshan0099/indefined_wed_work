@@ -5,7 +5,7 @@ import './App.css'
 import MainDisplay from './components/MainDisplay'
 import Story from './components/Story'
 import CountDown from './components/CountDown'
-
+import Deets from './components/Deets'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +15,7 @@ function App() {
       <MainDisplay></MainDisplay>
       <Story></Story>
       <CountDown></CountDown>
+      <Deets></Deets>
     </>
   )
 }
