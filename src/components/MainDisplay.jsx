@@ -29,7 +29,7 @@ const MainDisplay = () => {
 
     return(
         <>
-        <div className='bg-cover bg-center h-screen w-full grid grid-rows-5 text-yellow-50' style={{backgroundImage:`url(${coverImg})`}}>
+        <div className='bg-cover bg-center h-screen w-full relative text-yellow-50' style={{backgroundImage:`url(${coverImg})`}}>
             <div style={overlayStyle} className='grid grid-rows-5 auto-rows-auto'>
                 <div className='text-2xl md:text-3xl w-full'>
                     <div className={` ${isScrolled ? 'backdrop-filter backdrop-blur-md bg-opacity-10 text-black' : ''} transition-all duration-700 ease-in-out fixed flex flex-row justify-between w-full p-6`}>
@@ -46,13 +46,13 @@ const MainDisplay = () => {
 
                 <div className='row-start-5 flex flex-row justify-between text-lg p-4 md:p-20 md:text-3xl'>
                     <div className=''>
-                    4 August, 2024 at <br />
+                    4 August, 2024 at <br/>
                         5:00 PM
                     </div>
 
                     <div>
-                    Nattikabr <br />
-    T               riprayar
+                    Nattika<br />
+    T               Triprayar
                     </div>
                 </div>
 
