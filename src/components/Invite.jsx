@@ -23,8 +23,8 @@ function Invite() {
 
                     </div>
                 </div>
-                <div className="relative w-full h-64 md:h-96 overflow-hidden">
-                    <img className="absolute inset-0 w-full h-full object-cover" src={inviteImg} alt="" />
+                <div className="w-full h-64 md:h-96">
+                    <img className="w-full h-full object-cover" src={inviteImg} alt="" />
                 </div>
             </div>
         </>

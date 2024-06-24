@@ -8,6 +8,7 @@ import CountDown from './components/CountDown'
 import Deets from './components/Deets'
 import FunctionDeets from './components/FunctionDeets'
 import Invite from './components/Invite'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Deets></Deets>
       <FunctionDeets></FunctionDeets>
       <Invite></Invite>
+      <Footer></Footer>
       
     </>
   )
