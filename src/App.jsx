@@ -6,6 +6,8 @@ import MainDisplay from './components/MainDisplay'
 import Story from './components/Story'
 import CountDown from './components/CountDown'
 import Deets from './components/Deets'
+import FunctionDeets from './components/FunctionDeets'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,7 @@ function App() {
       <Story></Story>
       <CountDown></CountDown>
       <Deets></Deets>
+      <FunctionDeets></FunctionDeets>
     </>
   )
 }
