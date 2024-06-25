@@ -35,7 +35,7 @@ const MainDisplay = () => {
                     <div className={` ${isScrolled ? 'backdrop-filter backdrop-blur-md bg-opacity-10 text-black' : ''} transition-all duration-700 ease-in-out fixed flex flex-row justify-between w-full p-6`}>
 
                         <div><a href="">Info</a></div>
-                        <div><a href="">Gallery</a></div>
+                        <div><a href="/gallery">Gallery</a></div>
                     </div>
                 </div>
                 <div className='p-4 md:pl-9 lg:row-start-4 md:row-start-3a row-span-1'>
