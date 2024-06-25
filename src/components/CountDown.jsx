@@ -6,7 +6,7 @@ function CountDown() {
 
 
     function timer() {
-        var targetDate = new Date('2024-06-25T00:00:00Z');
+        var targetDate = new Date('2024-06-27T00:00:00Z');
 
         const timeDifference = targetDate.getHours() * 60 * 60 * 1000 + targetDate.getMinutes() * 60 * 1000;
         targetDate = new Date(targetDate.getTime() - timeDifference);
@@ -34,10 +34,15 @@ function CountDown() {
 
     useEffect(() => {
 
-        setInterval(() => {
+       const timerInterval = setInterval(() => {
 
             setDateDeets(timer())
         }, 1000)
+
+        return() => {
+
+            clearInterval(timerInterval)
+        }
 
     }, [])
 

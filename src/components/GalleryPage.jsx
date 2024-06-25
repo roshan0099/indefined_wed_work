@@ -7,6 +7,8 @@ import img6 from "../assets/info.jpg"
 import img7 from "../assets/invite_img.jpeg"
 import img8 from "../assets/story.jpg"
 import { useState, useEffect } from "react"
+import Footer from "./Footer"
+
 
 function GalleryPage() {
 
@@ -32,7 +34,7 @@ function GalleryPage() {
                     <div className='text-2xl md:text-3xl w-full'>
                         <div className={` ${isScrolled ? 'backdrop-filter backdrop-blur-md bg-opacity-10 text-black' : ''} transition-all duration-700 ease-in-out fixed flex flex-row justify-between w-full p-6`}>
 
-                            <div><a href="">Info</a></div>
+                            <div><a href="/">Home</a></div>
                             <div><a href="/gallery">Gallery</a></div>
                         </div>
                     </div>
@@ -51,6 +53,7 @@ function GalleryPage() {
                     </div>
                 </div>
             </div>
+            <Footer></Footer>
         </>
     )
 }
