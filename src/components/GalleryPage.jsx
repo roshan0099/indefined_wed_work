@@ -42,14 +42,14 @@ function GalleryPage() {
                 <div>
 
                     <div className=" pt-20 md:pt-24 p-9 columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-3 [&>img:not(:first-child)]:mt-8">
-                        <img src={img1} alt="" />
-                        <img src={img2} alt="" />
-                        <img src={img3} alt="" />
-                        <img src={img4} alt="" />
-                        <img src={img5} alt="" />
-                        <img src={img6} alt="" />
-                        <img src={img7} alt="" />
-                        <img src={img8} alt="" />
+                        <img src={img1} alt="" loading="lazy" />
+                        <img src={img2} alt="" loading="lazy" />
+                        <img src={img3} alt="" loading="lazy" />
+                        <img src={img4} alt=""  loading="lazy"/>
+                        <img src={img5} alt=""  loading="lazy"/>
+                        <img src={img6} alt=""  loading="lazy"/>
+                        <img src={img7} alt=""  loading="lazy"/>
+                        <img src={img8} alt=""  loading="lazy"/>
                     </div>
                 </div>
             </div>

@@ -37,7 +37,7 @@ const MainDisplay = () => {
         <>
             <div className='bg-cover bg-center h-screen relative text-yellow-50' style={{ backgroundImage: `url(${coverImg})` }}>
 
-                    <div className={` fixed mt-16 z-50 h-full w-full ${infoClick ? 'opacity-100 backdrop-blur-2xl bg-opacity-10 text-black ' : 'transform -translate-x-32 opacity-0'} transition-all ease-in-out duration-700 flex flex-col items-center p-14 gap-11`}>
+                    <div className={` fixed mt-16 z-50 h-full w-full ${infoClick ? 'opacity-100 backdrop-blur-2xl bg-opacity-10 ' : 'transform -translate-x-32 opacity-0'}  ${isScrolled && 'text-black'} transition-all ease-in-out duration-700 flex flex-col items-center p-14 gap-11`}>
                         <div className='text-3xl md:text-4xl'>
                             Your presence will make our celebration even more memorable.
                         </div>
@@ -67,7 +67,7 @@ const MainDisplay = () => {
             
                 <div style={overlayStyle} className='grid grid-rows-5 auto-rows-auto'>
                     <div className={`text-2xl md:text-3xl w-full  transition-all ease-in-out duration-700 `}>
-                        <div className={` ${(isScrolled) ? 'backdrop-filter backdrop-blur-md bg-opacity-10 text-black' : ''} ${infoClick ? ' text-black opacity-100 backdrop-blur-2xl' :null} transition-all duration-300 ease-in-out fixed flex flex-row justify-between w-full p-6`}>
+                        <div className={` ${(isScrolled) ? 'backdrop-filter backdrop-blur-md bg-opacity-10 text-black' : ''}  transition-all duration-300 ease-in-out fixed flex flex-row justify-between w-full p-6`}>
 
                             <div onClick={clicked} className='cursor-pointer'>
                                 {

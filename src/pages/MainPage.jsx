@@ -17,7 +17,7 @@ function MainPage(){
       <Deets></Deets>
       <FunctionDeets></FunctionDeets>
       <Invite></Invite>
-      <Footer></Footer>
+      <Footer content={""}></Footer>
         </>
     )
 }

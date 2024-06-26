@@ -1,4 +1,4 @@
-function Footer() {
+function Footer({content}) {
 
     return (
 
@@ -7,8 +7,9 @@ function Footer() {
                 <div className="flex flex-col md:flex-row w-full gap-14">
 
                     <div className="text-6xl flex-1">
-                        "We hope to <br /> see you
-                        there"
+                        {content ==='' ? "'We hope to see you there'" : "'We look forward to your presence.'"}
+                        
+                        
                     </div>
 
                     <div className="flex-1 flex justify-center items-center text-2xl p-3">

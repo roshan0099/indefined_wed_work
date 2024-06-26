@@ -6,7 +6,7 @@ function CountDown() {
 
 
     function timer() {
-        var targetDate = new Date('2024-06-27T00:00:00Z');
+        var targetDate = new Date('2024-08-04T00:00:00Z');
 
         const timeDifference = targetDate.getHours() * 60 * 60 * 1000 + targetDate.getMinutes() * 60 * 1000;
         targetDate = new Date(targetDate.getTime() - timeDifference);
@@ -52,7 +52,7 @@ function CountDown() {
 
                 <div className="flex flex-col">
                     <div className="flex justify-center">
-                        {dateDeets.day}
+                        {dateDeets.day < 0 ? 0 : dateDeets.day -1 }
                     </div>
                     <div>
                         Days
@@ -61,7 +61,7 @@ function CountDown() {
 
                 <div>
                     <div className="flex justify-center">
-                        {dateDeets.hour}
+                        {dateDeets.hour < 0 ? 0 : dateDeets.hour}
                     </div>
                     <div>
                         Hours
@@ -70,7 +70,7 @@ function CountDown() {
 
                 <div>
                     <div className="flex justify-center">
-                        {dateDeets.minute}
+                        {dateDeets.minute < 0 ? 0 : dateDeets.minute}
 
                     </div>
                     <div>
@@ -80,7 +80,7 @@ function CountDown() {
 
                 <div>
                     <div className="flex justify-center">
-                        {dateDeets.second}
+                        {dateDeets.second < 0 ? 0 : dateDeets.second}
                     </div>
                     <div>
                         Seconds
