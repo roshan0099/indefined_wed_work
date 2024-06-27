@@ -35,9 +35,9 @@ const MainDisplay = () => {
 
     return (
         <>
+       
             <div className='bg-cover bg-center h-screen relative text-yellow-50' style={{ backgroundImage: `url(${coverImg})` }}>
-
-                    <div className={` fixed mt-16 z-50 h-full w-full ${infoClick ? 'opacity-100 backdrop-blur-2xl bg-opacity-10 ' : 'transform -translate-x-32 opacity-0'}  ${isScrolled && 'text-black'} transition-all ease-in-out duration-700 flex flex-col items-center p-14 gap-11`}>
+                    <div className={` fixed mt-16 z-50 h-full w-full ${infoClick ? 'opacity-100 backdrop-blur-2xl bg-opacity-10 ' : 'transform -translate-x-32 opacity-0 pointer-events-none'}  ${isScrolled && 'text-black'} transition-all ease-in-out duration-700 flex flex-col items-center p-14 gap-11`}>
                         <div className='text-3xl md:text-4xl'>
                             Your presence will make our celebration even more memorable.
                         </div>
@@ -58,8 +58,8 @@ const MainDisplay = () => {
                                 Majestic ceremonials Auditorium
                                 Nattika, Triprayar
                             </div>
-                            <div>
-                                <a href="https://maps.app.goo.gl/dnS1DRV4sE8dyc977?g_st=ic">See it on the map</a>
+                            <div className='mt-6'>
+                                <a className='border rounded-lg p-2' href="https://maps.app.goo.gl/dnS1DRV4sE8dyc977?g_st=ic">See it on the Map</a>
                             </div>
 
                         </div>
@@ -111,6 +111,7 @@ const MainDisplay = () => {
                 </div>
             </div>
             {/* <div>halo</div> */}
+            
         </>
     )
 }
