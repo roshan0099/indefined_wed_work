@@ -12,7 +12,7 @@ function Deets() {
                                 GROOM
                             </div>
                             <div className=" text-xl md:text-2xl md:w-2/3">
-                                Haroon Kabeer
+                                Haroon Kabeer <br />
                                 S/o Kabeer & Sajitha Kabeer
                                 Kannankillath House , Edamuttam
                             </div>
@@ -24,7 +24,7 @@ function Deets() {
                             </div>
 
                             <div className="text-xl md:text-2xl md:w-2/3">
-                                Fathima Nazrin
+                                Fathima Nazrin <br />
                                 D/o Nizar K.M & Sameena K.P
                                 Manzil House , palappuram
                             </div>
