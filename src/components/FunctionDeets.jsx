@@ -41,11 +41,17 @@ function FunctionDeets() {
 
                                         Majestic ceremonials Auditorium <br />
                                         Nattika, Triprayar
+
+                                    <div className='mt-6 text-black text-lg'>
+                                        <a className='border rounded-lg border-black p-3' href="https://maps.app.goo.gl/dnS1DRV4sE8dyc977?g_st=ic">See it on the Map</a>
                                     </div>
+                                    </div>
+
+                                    
 
                                 </div>
 
-                                <div className="flex flex-col gap-2 m-5 text-center ">
+                                <div className="flex flex-col gap-2 m-5 text-center mt-12">
                                     <div className="text-3xl">
 
                                         NIKAH:

@@ -20,7 +20,9 @@ function Invite() {
                             and join us as we celebrate love and
                             unity on our wedding day!”
                         </div>
-
+                        <div className='mt-6 text-black'>
+                                <a className='border rounded-lg p-2' href="https://maps.app.goo.gl/dnS1DRV4sE8dyc977?g_st=ic">See it on the Map</a>
+                            </div>
                     </div>
                 </div>
                 <div className="w-full h-64 md:h-96">
