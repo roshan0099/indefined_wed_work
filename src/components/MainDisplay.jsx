@@ -51,7 +51,7 @@ const MainDisplay = () => {
                             <br />
 
                             <div className='text-3xl'>
-                                on 4th August, 2024 at 5:00 PM
+                                on 4th August, 2024 at 5:00 PM - 9:00 PM
                             </div>
 
                             <div className='text-2xl'>
@@ -99,7 +99,7 @@ const MainDisplay = () => {
                     <div className='row-start-5 flex flex-row justify-between text-lg p-4 md:p-20 md:text-3xl'>
                         <div className=''>
                             4 August, 2024 at <br />
-                            5:00 PM
+                            5:00 PM - 9:00 PM
                         </div>
 
                         <div>

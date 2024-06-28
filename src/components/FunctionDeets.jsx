@@ -25,7 +25,7 @@ function FunctionDeets() {
 
                                     <div className="text-2xl">
 
-                                        4th August, 2024 at 5:00 PM
+                                        4th August, 2024 at 5:00 PM - 9:00 PM
                                     </div>
 
                                 </div>
