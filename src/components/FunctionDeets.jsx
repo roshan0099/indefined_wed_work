@@ -25,7 +25,7 @@ function FunctionDeets() {
 
                                     <div className="text-2xl">
 
-                                        4th August, 2024 at 5:00 PM - 9:00 PM
+                                        3rd August, 2024 at 11:00 AM - 2:00 PM
                                     </div>
 
                                 </div>
@@ -39,11 +39,11 @@ function FunctionDeets() {
 
                                     <div className="text-2xl text-center">
 
-                                        Majestic ceremonials Auditorium <br />
-                                        Nattika, Triprayar
+                                        Palliyalil Auditorium <br />
+                                        Kulappully
 
                                     <div className='mt-6 text-black text-lg'>
-                                        <a className='border rounded-lg border-black p-3' href="https://maps.app.goo.gl/dnS1DRV4sE8dyc977?g_st=ic">See it on the Map</a>
+                                        <a className='border rounded-lg border-black p-3' href="https://maps.app.goo.gl/wNsV1i17dZdTSB3BA?g_st=ic">See it on the Map</a>
                                     </div>
                                     </div>
 
@@ -54,11 +54,11 @@ function FunctionDeets() {
                                 <div className="flex flex-col gap-2 m-5 text-center mt-12">
                                     <div className="text-3xl">
 
-                                        NIKAH:
+                                        Reception:
                                     </div>
 
                                     <div className="text-2xl">
-                                        3rd August 2024
+                                        4th August 2024
 
                                     </div>
                                 </div>
